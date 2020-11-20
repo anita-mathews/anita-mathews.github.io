@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script>
+
+
+	<css-doodle>
+		:doodle {
+			@grid: 5 / 100vmax;
+			@size: 100vmax;
+			grid-gap: 100px;
+			position: fixed;
+            z-index: -2;
+			
+		}
+		transform: scale(@rand(.1, 1)) translate3d(@r(150px), @r(200px), 0) rotate(@r(360deg));
+		background-color: hsla(167, 85%, @r(50%,90%), 0.5);
+		@shape: clover 4;
+	</css-doodle>
+
+	<style>
+	
+	#chevron {
+      position: absolute;
+      text-align: left;
+	  padding:500px;
+	  margin: 60px;
+      margin-bottom: 6px;
+      height: 60px;
+      width: 200px;
+	  z-index: -1:
+    }
+    #chevron:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 50%;
+      background: hsl(21, 36%, 53%);
+      transform: skew(0deg, -6deg);
+	  border-radius:5%;
+	  z-index: -1;
+    }
+    #chevron:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 50%;
+      width: 50%;
+      background: hsl(21, 36%, 53%);
+	  border-radius: 5%;
+	  z-index: -1;
+      transform: skew(0deg, 6deg);
+    }
+	
+		div {
+			font-family: Itim, sans-serif;
+		}
+		
+		h1 {
+			font-size: 90px;
+			font-family: "Dancing Script";
+			color: hsl(327 94% 66%);
+			text-align: center;
+		}
+		
+		h2 {
+			font-size: 50px;
+			font-family:"Architects Daughter", monospace;
+			padding-left: 30px;
+		}
+	
+	</style>
+
+	<head>
+		<title> Anita's Cookbook </title>
+	</head>
+	
+	<body>
+		<h1> Welcome to Anita's Cookbook ! </h1>
+		
+		<div id="chevron"> <p> This is a test </p>
+		<h2> List of Recipes </h2>
+		<ul>
+			<li> <a href="pages/TomatoCurry.html">Tasty Tomato Curry</a></li>
+		</ul>
+		</div>
+	</body>
+
+
+</html>
