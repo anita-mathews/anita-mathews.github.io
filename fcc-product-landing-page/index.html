@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC-product landing page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- script for testing -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <head>
+    <title>FCC Product Landing Page</title>
+    <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  
+  <header id="header" class="banner">
+    <img id="header-img" src="https://anita-mathews.github.io/images-repo/LogoMakr-4dKqx5.png" alt="The Sunglass Store Logo">
+    <nav id="nav-bar">
+        <ul>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#selection">Selection</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      </nav>
+  </header>
+  
+<!-- BODY, main part of website -->
+  <body>
+    <div class="main-info">
+      <div class="intro">
+        <p><b>Quality shades for every occasion</b></p>
+      </div>
+      
+
+      <div class="slideshow">
+        <div class="slides fade">
+          <img class="spic" src="https://images.unsplash.com/photo-1577803645773-f96470509666?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80">
+          <div class="text">Photo by <a href="https://unsplash.com/@sebcomantravel">Seb Coman</a> on <a href="https://unsplash.com">Unsplash</a></div>
+        </div>
+        <div class="slides fade">
+          <img class="spic" src="https://images.unsplash.com/photo-1590564310418-66304f55a2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80">
+          <div class="text">Photo by <a href="https://unsplash.com/@stephiime">Stephanie Hau</a> on <a href="https://unsplash.com">Unsplash</a></div>
+        </div>
+        <div class="slides fade">
+          <img class="spic" src="https://images.unsplash.com/photo-1551281812-f1e0aabc4650?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80">
+          <div class="text">Photo by <a href="https://unsplash.com/@gbaya123">Gaurav Baya</a> on <a href="https://unsplash.com">Unsplash</a></div>
+        </div>
+      <br>
+      
+      <!--Dots and circles -->
+<div style="text-align:center;">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+      </div>
+      
+        <!-- ABOUT SECTION -->
+        <div id="about" class="about">
+          <h1 style="text-align:center;"> Our Brand: </h1>
+          <p>The Sunglass Store provides fashionable sunglasses made with high quality materials at a relatively low cost. Our carefully crafted designs not only protect your eyes but give an added flare guaranteed to turn heads at the office and at the beach. We believe in high fashion for all while keeping our eyes safe. <hr><em style="text-align:center;"><b>Dare to be Brilliant. Dare to be Bold.</b></em></p>
+      
+        </div>
+     
+    <div id="offer" class="offer">
+      <p>Our glasses are:</p>
+      <ul>
+        <li><i class="fa fa-check fa-2x" style="color:green;"></i>Durable</li>
+        <li><i class="fa fa-check fa-2x" style="color:green;"></i>Protect against UV Light</li>
+        <li><i class="fa fa-check fa-2x" style="color:green;"></i>Come in a Variety of Styles</li>
+      </ul>
+    </div>
+    
+      <iframe  id="video" class="video" height="315" src="https://www.youtube.com/embed/1k9ApDmi_6k">
+</iframe>
+
+    <div id="selection" class="selection">
+     
+      <div class="selection-header">
+        <h2><b>Shop Our Collection:</b></h2>
+      </div>
+      
+      <!-- first card -->
+      <div class="card" style="grid-area:SUN1;">
+           <img class="glass-img" src="https://anita-mathews.github.io/images-repo/LogoMakr-glasses1.png" alt="The Sunglass Store Logo">
+        <br>
+        <ul>
+          <li style="display: list-item; overflow: visible;">Brown glasses</li>
+          <li>Light Weight</li>
+          <li>$25</li>
+        </ul>
+      </div>
+      
+      <!-- second card -->
+      <div class="card" style="grid-area:SUN2;">
+           <img class="glass-img" src="https://anita-mathews.github.io/images-repo/LogoMakr-glasses2.png" alt="The Sunglass Store Logo">
+        <br>
+        <ul>
+          <li style="display: list-item; overflow: visible;">Purple glasses</li>
+          <li>Light Weight</li>
+          <li>$25</li>
+        </ul>
+      </div>
+      
+      <!-- third card -->
+      <div class="card" style="grid-area:SUN3;">
+           <img class="glass-img" src="https://anita-mathews.github.io/images-repo/LogoMakr-glasses3.png" alt="The Sunglass Store Logo">
+        <br>
+        <ul>
+          <li style="display: list-item; overflow: visible;">Green glasses</li>
+          <li>Light Weight</li>
+          <li>$25</li>
+        </ul>
+      </div>
+      
+      </div>
+      
+      <!-- subscription email form -->
+      <div class="email-form">
+        <div class="email-header">
+          <h2><b>Subscribe For More Info:</b></h2>
+        </div>
+        
+        <!-- ask to input email -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label id="email-label" for="email">Email:</label>
+    <input class="tinput" id="email" type="email" name="email" placeholder="Enter your email" required>
+          <input id="submit" type="submit" value="Sign up" style="font-size: 20px">
+        </form>
+        
+        <!-- Like us on Facebook -->
+        <div id="contact" class="contact">
+        <div class="social-media">
+          <i class="fa fa-facebook-square fa-2x"></i> <p>Like on Facebook</p>
+        </div>
+        
+        <div class="social-media">
+          <i class="fa fa-twitter fa-2x"></i> <p>Follow on Twitter</p>
+        </div>
+          
+        <div class="social-media">
+          <i class="fa fa-instagram fa-2x"></i> <p>Follow on Instagram</p>
+        </div>
+          
+        </div>
+        
+        
+        
+      
+      </div><!-- email form-->
+           
+    </div>
+
+  <footer>
+    <p>Background photo by <a href="https://unsplash.com/@timberfoster">Tim Foster</a> on <a href="https://unsplash.com">Unsplash</a><br>
+    Sunglasses logo and templates were created using <a href="logomakr.com">LogoMakr.com</a></p>
+  </footer>
+  </body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
