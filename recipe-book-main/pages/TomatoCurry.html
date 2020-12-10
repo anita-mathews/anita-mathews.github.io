@@ -55,12 +55,12 @@
 				border-color: cyan;
 			}
 		}
-		 .photos {
+		 .ingredients {
 			display: flex;
 			margin: auto;
 			flex-direction: row;
 			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: left;
 		 }
 		 .box {
 			background-color: blue;
@@ -68,7 +68,7 @@
 			width: 100px;
 			padding-bottom: 60px;
 			}
-		.ingredients {
+		.card{
 			
 			font-size: 24px;
 			font-family: Itim, monospace;
@@ -112,20 +112,20 @@
 	</head>
 		
 	<body>
-		<h1> Tasty Tomato Curry Recipe </h1>
+		<h1> Tomato Curry Recipe </h1>
 		<p id="intro"> This dish combines tomatoes, onions and spices to create an aromatic and flavorful experience.
 			It's one of my go-to recipes and is great when paired with rice or pasta. It can also be used as 
 			a sauce with boiled eggs or fish. Once the ingredients are prepared, it only takes about 20 minutes 
 			to cook! </p><hr>
 		
-		<div class="ingredients">
+		<div class="card">
 		<h2> Ingredients: </h2>
 		<p id="ingintro"> These are the ingredients I like to use. Feel free to modify the quantities according to your tastes. 
 			You also don't need everything on this list to try it out. As long as you have tomatoes, onions, oil and 
 			a few spices, it will still turn out great. (Though I highly recommend coming back to this recipe when
 			you do have all these ingredients!) </p>
 		
-		<div class="photos">
+		<div class="ingredients">
 		<ul>
 			<li> Tomatoes </li>
 			<li> Onions </li>
@@ -139,32 +139,13 @@
 			<li> Curry Leaves </li>
 			<li> Green Chili Peppers </li>
 		</ul>
-		
-		<!-- <div class="box"> 250 200 200 150 200-->
-		<a href="https://unsplash.com/@omeganova" target="_blank">
-		<img src="../photos/tomato.jpg" alt="Picture of tomatoes by Deniz Altindas on Unsplash" style="height: 250px;">
-		</a>
-		
-		<a href="https://unsplash.com/@karolina-grabowska">
-		<img src="../photos/onion.jpg" alt="Picture of onions by Karolina Grabowska on Unsplash" style="height: 200px;">
-		</a>
-		
-		<a href="https://www.pexels.com/@isabella-mendes-107313?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">
-		<img src="../photos/garlic.jpg" alt="Picture of garlic by Isabella Mendes on Unsplash" style="height: 200px;">
-		</a>
-		
-		
-		<a href="https://www.pexels.com/@shantanu-pal-938952?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">
-		<img src="../photos/spices.jpg" alt="Picture of spices by Shantanu Pal on Unsplash" style="height: 150px;">
-		</a>
-		
-		<a href="https://www.pexels.com/@kunal-shah-2091936?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">
-		<img src="../photos/greenchili.jpg" alt="Picture of green chili peppers by Kunal Shah" style="height: 200px; transform: rotate(90deg); margin-left: 50px; margin-top:-30px;">
-		</a>
 		</div>
-		<!-- </div> -->
-		</div class="ingredients">
+
+		</div>
 		
+		
+		<!-- Instructions portion -->
+		<div class="card">
 		<h2> Instructions: </h2>
 		
 		<div>
@@ -176,7 +157,9 @@
 		
 		
 		</ol>
-		</div>	
+		</div>
+
+		</div>
 	</body>
 
 
